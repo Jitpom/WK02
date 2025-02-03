@@ -133,7 +133,14 @@ footer h1{
     color: rgb(37, 37, 43);
     font-weight: 900;
     font-size: 5em;
-    text-shadow: white 1px -1px 0px;
+    text-shadow: white 5px -5px 0px,
+     white -5px 5px 0px, 
+     white 5px 5px 0px,
+     white -5px -5px 0px,
+     yellowgreen 10px -10px 30px,
+     yellowgreen -10px 10px 30px,
+     yellowgreen 10px 10px 30px,
+     yellowgreen -10px -10px 30px;
     width: 100%;
     text-align: center;
 }
